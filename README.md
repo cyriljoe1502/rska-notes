@@ -1,6 +1,4 @@
-# RSKA Notes v18
-Full GitHub Pages/PWA replacement build.
+# RSKA Notes v19
+Full GitHub replacement pack.
 
-Changes include subtle animated Setup/Collection landing graphics; fixed mobile date/time sizing; clickable RSKA logo/name returns home; better desktop report navigation; dictation only on site observations and report observation editor; professional SVG mic icon; manual collection fallback runs the setup prompts before collection prompts; and separate selected-MP Setup/Collection reports.
-
-Replace all repository-root files with this pack, then commit and push. The same GitHub Pages URL remains valid.
+Visual refresh based on the supplied reference screenshots: Avenir-style web typography with Arial fallbacks, tagline Site observations, sorted., animated green/blue waveform on the Setup/Collection landing page, questionnaire cards/progress bar consistent with the earlier design, redesigned project workspace with project metadata, edit project, monitoring point cards, dashed Add monitoring point panel and report CTA. Version number removed from header. Existing Setup/Collection, PDF import/manual fallback, observation dictation, per-MP reports and export/PWA functions retained.
