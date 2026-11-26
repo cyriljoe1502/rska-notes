@@ -1,11 +1,10 @@
 {
   "name": "RSKA Notes",
   "short_name": "RSKA Notes",
-  "description": "Guided setup and collection site monitoring records.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#f4f7f5",
+  "background_color": "#f3f6f4",
   "theme_color": "#95C11F",
   "icons": [
     {
