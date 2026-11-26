@@ -9,3 +9,27 @@ Draft-resume update:
 - Clicking the RSKA logo/name saves the current wizard context before returning home.
 - Return to draft restores the exact in-progress wizard step where possible, otherwise the collection screen or project workspace.
 - Draft context remains browser/device-local and persists through refreshes and accidental navigation to Home.
+
+
+Report preview update:
+- Removed the Report-ready observations editor/dictation panel from Report Preview.
+- The generated On-site observations paragraph remains visible and remains part of Word/PDF/HTML reports.
+- Added Edit beside Project details in Report Preview.
+- Added Edit beside Monitoring point in Report Preview.
+- Edits opened from Report Preview return directly to the same monitoring-point report after completion.
+- Edit controls are preview-only and are excluded from downloaded/shared reports.
+
+
+Download/share fix:
+- PDF generation no longer clones the report into the live web page. This removes the duplicate report appearing below Download/Share while a PDF is generated.
+- Download > Word immediately downloads the Word report.
+- Download > PDF immediately generates and downloads the PDF without a print/new-window workflow.
+- Share PDF generates the same PDF in memory and passes it straight to the browser/device native share sheet using navigator.share.
+
+
+Report MP selector layout update:
+- Replaced the oversized blue notice-style selector with a compact report navigation card.
+- Label/help text and dropdown are aligned horizontally on desktop.
+- On mobile the label and dropdown stack with consistent 48 px touch sizing.
+- Reduced unnecessary vertical space before the report content.
+- Selector remains preview-only and is excluded from Word/PDF/HTML outputs.
