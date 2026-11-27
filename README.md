@@ -68,3 +68,9 @@ Targeted v19.11 fix:
 - Added an explicit 180x180 Apple touch icon based on the square RSKA app mark.
 - Added explicit favicon/PWA icon metadata for iOS and other mobile browsers.
 - Bumped the service-worker cache and included the Apple icon in the cached app assets.
+
+
+Targeted v19.12 fix:
+- Improved the top-right light/dark mode toggle visibility in dark mode using RSK dark grey, RSK green and white for stronger contrast.
+- Added a clear green border, focus state and accessible label to the theme control.
+- Everything else remains unchanged from v19.11.
