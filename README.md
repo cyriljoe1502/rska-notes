@@ -76,9 +76,9 @@ Targeted v19.12 fix:
 - Everything else remains unchanged from v19.11.
 
 
-Targeted v19.13 update:
-- Added a compact Things to consider before dictating panel above Dictate observations in both Setup and Collection.
-- Pointers cover road traffic, rail/aircraft, industry/construction, people, natural sounds, building services, sound character, distance/direction and unusual changes.
-- Weather is intentionally kept separate because it is already captured by the dedicated weather question.
-- Additional notes dictation remains available without the observation prompt panel.
-- Everything else from v19.12 is retained.
+Targeted v19.14 update:
+- Added linked equipment dropdowns at each monitoring point, starting with Manufacturer, followed by Model and Serial no.
+- Dropdowns are populated from RSKA assets database.xlsx and update dynamically based on the previous selection.
+- Equipment type is not requested.
+- Manufacturer is included in workspace summaries and generated reports.
+- Retains the v19.13 observation pointers and all existing v19.12 functionality.
