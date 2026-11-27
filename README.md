@@ -61,3 +61,10 @@ Targeted v19.10 change:
 - Removed Setup PDF upload/import from Collection.
 - Collection now starts directly with collection date/time and manual monitoring-location entry.
 - Removed the unused PDF.js import dependency; report PDF generation and download/share remain unchanged.
+
+
+Targeted v19.11 fix:
+- Restored manifest.webmanifest, which was referenced by the app but missing from the previous code pack.
+- Added an explicit 180x180 Apple touch icon based on the square RSKA app mark.
+- Added explicit favicon/PWA icon metadata for iOS and other mobile browsers.
+- Bumped the service-worker cache and included the Apple icon in the cached app assets.
