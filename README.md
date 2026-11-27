@@ -40,3 +40,12 @@ Targeted v19.7 fixes:
 - Collection questionnaire contains collection fields, instrument basics and optional setup/installation date only.
 - Collection reports exclude setup-related rows and show Monitoring duration calculated in whole days from setup/installation date to collection date.
 - Project question 3 of 4 now asks when the site survey is taking place.
+
+
+Targeted v19.8 fixes:
+- Enforced RSKA text colours on mobile controls and Continue buttons.
+- Removed the duplicate equipment installation question.
+- Updated Calibrator serial no. field wording.
+- Added dictation to setup and collection Additional notes.
+- Collection reports retain Setup date only and remove all other setup rows.
+- Corrected the mobile Download menu and strengthened download/share handling.
