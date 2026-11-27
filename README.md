@@ -35,7 +35,8 @@ Report MP selector layout update:
 - Selector remains preview-only and is excluded from Word/PDF/HTML outputs.
 
 
-Targeted v19.6 fixes:
-- Setup reports exclude collection-only rows and collection photographs.
-- Mobile Download report menu is compact, anchored above the button and constrained to the phone viewport.
-- Prior download/share, draft and mobile colour fixes are retained.
+Targeted v19.7 fixes:
+- Robust Setup PDF import using delimited embedded data and whitespace-tolerant decoding.
+- Collection questionnaire contains collection fields, instrument basics and optional setup/installation date only.
+- Collection reports exclude setup-related rows and show Monitoring duration calculated in whole days from setup/installation date to collection date.
+- Project question 3 of 4 now asks when the site survey is taking place.
