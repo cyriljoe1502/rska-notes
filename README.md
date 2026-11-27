@@ -33,3 +33,12 @@ Report MP selector layout update:
 - On mobile the label and dropdown stack with consistent 48 px touch sizing.
 - Reduced unnecessary vertical space before the report content.
 - Selector remains preview-only and is excluded from Word/PDF/HTML outputs.
+
+
+Targeted v19.5 fixes:
+- Corrected the download-menu JavaScript selector so Word, PDF and HTML downloads, PDF sharing, draft refresh and the remaining startup bindings initialise correctly.
+- Improved file-download handling for desktop and mobile browsers.
+- Restored Return to draft visibility on mobile by allowing the startup draft refresh to complete.
+- Set explicit button, Setup, Collection, Continue and download-menu text colours to prevent mobile browsers applying default blue text.
+- Retained the RSK Acoustics Avenir-first font stack with Arial fallback and the approved #95C11F, #497593, #575756 and #333333 palette.
+- Updated the service-worker cache version so installed laptop/mobile PWAs receive the corrected build.
