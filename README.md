@@ -74,3 +74,11 @@ Targeted v19.12 fix:
 - Improved the top-right light/dark mode toggle visibility in dark mode using RSK dark grey, RSK green and white for stronger contrast.
 - Added a clear green border, focus state and accessible label to the theme control.
 - Everything else remains unchanged from v19.11.
+
+
+Targeted v19.13 update:
+- Added a compact Things to consider before dictating panel above Dictate observations in both Setup and Collection.
+- Pointers cover road traffic, rail/aircraft, industry/construction, people, natural sounds, building services, sound character, distance/direction and unusual changes.
+- Weather is intentionally kept separate because it is already captured by the dedicated weather question.
+- Additional notes dictation remains available without the observation prompt panel.
+- Everything else from v19.12 is retained.
