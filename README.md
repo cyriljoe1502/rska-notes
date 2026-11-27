@@ -49,3 +49,15 @@ Targeted v19.8 fixes:
 - Added dictation to setup and collection Additional notes.
 - Collection reports retain Setup date only and remove all other setup rows.
 - Corrected the mobile Download menu and strengthened download/share handling.
+
+
+Critical v19.9 fix:
+- Corrected a JavaScript selector typo that stopped export and share event handlers from initialising.
+- Added guarded download/share click handlers.
+- Bumped the PWA cache to ensure installed mobile versions receive the corrected JavaScript.
+
+
+Targeted v19.10 change:
+- Removed Setup PDF upload/import from Collection.
+- Collection now starts directly with collection date/time and manual monitoring-location entry.
+- Removed the unused PDF.js import dependency; report PDF generation and download/share remain unchanged.
